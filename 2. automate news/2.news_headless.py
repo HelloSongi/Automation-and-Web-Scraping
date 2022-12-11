@@ -1,3 +1,4 @@
+#no need to open browser evertime we run the script
 
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
