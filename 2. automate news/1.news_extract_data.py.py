@@ -2,6 +2,8 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 import pandas as pd
 
+
+#url to fetch data from
 web = 'https://www.thesun.co.uk/sport/football/'
 path = '/Users/hellosongi/Desktopchromedriver' 
 
