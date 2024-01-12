@@ -3,7 +3,7 @@ import requests
 import re
 
 
-url = 'https://coinmarketcap.com/'
+url ='https://coinmarketcap.com/'
 result = requests.get(url).text 
 doc = BeautifulSoup(result, 'html.parser')
 
