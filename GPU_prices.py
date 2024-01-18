@@ -1,3 +1,4 @@
+#Scraping GPU prices
 from bs4 import BeautifulSoup
 import requests
 
