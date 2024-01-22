@@ -1,7 +1,7 @@
 import pandas as pd
 from faker import Faker
 
-# create fake data: name, mail, address
+#create fake data: name, mail, address
 fake = Faker()
 profiles = [fake.profile() for i in range(10)]
 
