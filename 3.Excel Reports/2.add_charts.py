@@ -2,7 +2,7 @@
 from openpyxl import load_workbook
 from openpyxl.chart import BarChart, Reference
 
-# Read workbook and select sheet
+#Read workbook and select sheet
 wb = load_workbook('pivot_table.xlsx')
 sheet = wb['Report']
 
